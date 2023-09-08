@@ -1,0 +1,30 @@
+.footer {
+  width: 100%;
+  background-color: white;
+  box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.06),
+  0px 4px 3px 0px rgba(0, 0, 0, 0.07);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 20vh;
+  justify-content: center;
+  border-top: 1px solid black;
+  margin-top: 10vh;
+}
+.display_footer_icons {
+  display: flex;
+  align-items: center;
+}
+.social_div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 8vw;
+    cursor: pointer;
+}
+.social_div > img {
+  height: 30px;
+}
+.copyright{
+    margin-top: 2vh;
+}

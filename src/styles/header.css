@@ -1,0 +1,41 @@
+.main_nav {
+  display: flex;
+  align-items: center;
+  padding: 1.5vh 1vw;
+  justify-content: space-around;
+  box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.06),
+  0px 4px 3px 0px rgba(0, 0, 0, 0.07);
+}
+.logo {
+  height: 60px;
+  width: 60px;
+  border-radius: 50%;
+  border: 2px solid rgb(226, 143, 143);
+  cursor: pointer;
+  transition: all 0.8s ease-in-out;
+}
+.logo:hover {
+  transform: scale(1.1);
+}
+.nav_url {
+  display: flex;
+  align-items: center;
+  width: 30%;
+  justify-content: space-around;
+  height: 4vh;
+}
+.nav_url > p {
+  font-weight: 500;
+  font-size: 1vw;
+  cursor: pointer;
+  transition: all 0.8s ease-out;
+  color: #111827;
+  text-decoration: none;
+}
+
+.nav_url > p:hover {
+  border-radius: 16px;
+  opacity: 0.8;
+  font-weight: 800;
+  transform: scale(1.1);
+}

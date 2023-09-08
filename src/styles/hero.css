@@ -1,0 +1,33 @@
+.main_hero__section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10%;
+  margin-top: 10vh;
+}
+.hero_right__section > img {
+  height: 600px;
+  width: 600px;
+  border-radius: 5%;
+  cursor: pointer;
+  transition: all 0.8s ease-in-out;
+}
+.hero_right__section > img:hover {
+  transform: scale(1.01);
+}
+.hero_left__section {
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+}
+.hero_left__section > h1 {
+  font-size: 35px;
+  font-weight: 800;
+  color: #14a800;
+}
+.hero_left__section > p {
+  font-size: 20px;
+  color: var(--gray-600, #4b5563);
+  font-weight: 400;
+  margin-top: 2vh;
+}
